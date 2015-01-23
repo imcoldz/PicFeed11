@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoDetailsViewController.h
 //  PicFeed11
 //
 //  Created by Xiangyu Zhang on 1/22/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoDetailsViewController : UIViewController
 
 @end
-

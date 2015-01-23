@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		E21CBA931A71F828008EFA69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBA921A71F828008EFA69 /* main.m */; };
 		E21CBA961A71F828008EFA69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBA951A71F828008EFA69 /* AppDelegate.m */; };
-		E21CBA991A71F828008EFA69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBA981A71F828008EFA69 /* ViewController.m */; };
-		E21CBA9C1A71F828008EFA69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21CBA9A1A71F828008EFA69 /* Main.storyboard */; };
 		E21CBA9E1A71F828008EFA69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21CBA9D1A71F828008EFA69 /* Images.xcassets */; };
 		E21CBAA11A71F828008EFA69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21CBA9F1A71F828008EFA69 /* LaunchScreen.xib */; };
 		E21CBAAD1A71F828008EFA69 /* PicFeed11Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBAAC1A71F828008EFA69 /* PicFeed11Tests.m */; };
+		E21CBAB91A71F85F008EFA69 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBAB71A71F85F008EFA69 /* PhotosViewController.m */; };
+		E21CBABA1A71F85F008EFA69 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21CBAB81A71F85F008EFA69 /* PhotosViewController.xib */; };
+		E21CBABE1A71FA7C008EFA69 /* PhotoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBABC1A71FA7C008EFA69 /* PhotoTableViewCell.m */; };
+		E21CBABF1A71FA7C008EFA69 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21CBABD1A71FA7C008EFA69 /* PhotoTableViewCell.xib */; };
+		E21CBAC31A72056C008EFA69 /* PhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E21CBAC11A72056C008EFA69 /* PhotoDetailsViewController.m */; };
+		E21CBAC41A72056C008EFA69 /* PhotoDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21CBAC21A72056C008EFA69 /* PhotoDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,20 @@
 		E21CBA921A71F828008EFA69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E21CBA941A71F828008EFA69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E21CBA951A71F828008EFA69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E21CBA971A71F828008EFA69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E21CBA981A71F828008EFA69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E21CBA9B1A71F828008EFA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21CBA9D1A71F828008EFA69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E21CBAA01A71F828008EFA69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E21CBAA61A71F828008EFA69 /* PicFeed11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicFeed11Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21CBAAB1A71F828008EFA69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21CBAAC1A71F828008EFA69 /* PicFeed11Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicFeed11Tests.m; sourceTree = "<group>"; };
+		E21CBAB61A71F85F008EFA69 /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		E21CBAB71A71F85F008EFA69 /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		E21CBAB81A71F85F008EFA69 /* PhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
+		E21CBABB1A71FA7C008EFA69 /* PhotoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTableViewCell.h; sourceTree = "<group>"; };
+		E21CBABC1A71FA7C008EFA69 /* PhotoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTableViewCell.m; sourceTree = "<group>"; };
+		E21CBABD1A71FA7C008EFA69 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
+		E21CBAC01A72056C008EFA69 /* PhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailsViewController.h; sourceTree = "<group>"; };
+		E21CBAC11A72056C008EFA69 /* PhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailsViewController.m; sourceTree = "<group>"; };
+		E21CBAC21A72056C008EFA69 /* PhotoDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,15 @@
 		E21CBA841A71F828008EFA69 = {
 			isa = PBXGroup;
 			children = (
+				E21CBAB61A71F85F008EFA69 /* PhotosViewController.h */,
+				E21CBAB71A71F85F008EFA69 /* PhotosViewController.m */,
+				E21CBAB81A71F85F008EFA69 /* PhotosViewController.xib */,
+				E21CBABB1A71FA7C008EFA69 /* PhotoTableViewCell.h */,
+				E21CBABC1A71FA7C008EFA69 /* PhotoTableViewCell.m */,
+				E21CBABD1A71FA7C008EFA69 /* PhotoTableViewCell.xib */,
+				E21CBAC01A72056C008EFA69 /* PhotoDetailsViewController.h */,
+				E21CBAC11A72056C008EFA69 /* PhotoDetailsViewController.m */,
+				E21CBAC21A72056C008EFA69 /* PhotoDetailsViewController.xib */,
 				E21CBA8F1A71F828008EFA69 /* PicFeed11 */,
 				E21CBAA91A71F828008EFA69 /* PicFeed11Tests */,
 				E21CBA8E1A71F828008EFA69 /* Products */,
@@ -83,9 +102,6 @@
 			children = (
 				E21CBA941A71F828008EFA69 /* AppDelegate.h */,
 				E21CBA951A71F828008EFA69 /* AppDelegate.m */,
-				E21CBA971A71F828008EFA69 /* ViewController.h */,
-				E21CBA981A71F828008EFA69 /* ViewController.m */,
-				E21CBA9A1A71F828008EFA69 /* Main.storyboard */,
 				E21CBA9D1A71F828008EFA69 /* Images.xcassets */,
 				E21CBA9F1A71F828008EFA69 /* LaunchScreen.xib */,
 				E21CBA901A71F828008EFA69 /* Supporting Files */,
@@ -199,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21CBA9C1A71F828008EFA69 /* Main.storyboard in Resources */,
+				E21CBABF1A71FA7C008EFA69 /* PhotoTableViewCell.xib in Resources */,
+				E21CBAC41A72056C008EFA69 /* PhotoDetailsViewController.xib in Resources */,
+				E21CBABA1A71F85F008EFA69 /* PhotosViewController.xib in Resources */,
 				E21CBAA11A71F828008EFA69 /* LaunchScreen.xib in Resources */,
 				E21CBA9E1A71F828008EFA69 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21CBA991A71F828008EFA69 /* ViewController.m in Sources */,
+				E21CBABE1A71FA7C008EFA69 /* PhotoTableViewCell.m in Sources */,
 				E21CBA961A71F828008EFA69 /* AppDelegate.m in Sources */,
+				E21CBAB91A71F85F008EFA69 /* PhotosViewController.m in Sources */,
 				E21CBA931A71F828008EFA69 /* main.m in Sources */,
+				E21CBAC31A72056C008EFA69 /* PhotoDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +264,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E21CBA9A1A71F828008EFA69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E21CBA9B1A71F828008EFA69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E21CBA9F1A71F828008EFA69 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
